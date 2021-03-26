@@ -25,6 +25,13 @@ $(document).ready(function () {
     else { return $("#output-result").text("You probably shouldn't learn how to code...") }
   })
 })
+$("#question1").change(function () {
+  if ($("#question1").val() === NaN) {
+    $("#hideme").show()
+  } else {
+    $("#hideme").hide()
+  }
+})
 
 //  The functions below were attempts:
 
