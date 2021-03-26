@@ -29,3 +29,12 @@ $(document).ready(function () {
 // $(".form-control").click(function () {
 //   $("select").toggle();
 // }
+
+// $(function () {
+//   $('#hide-me').change(function () {
+//     if (q1 === "NaN") {
+//       $("#hide-me").show();
+//     } else {
+//       $("#hide-me").hide();
+//     });
+// });
