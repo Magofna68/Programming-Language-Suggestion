@@ -1,0 +1,12 @@
+#background-color {
+  background-color: black;
+}
+h1 {
+  color: #E0C1B3;
+  text-align: center;
+}
+.smaller-text {
+  font-size: larger;
+  color: white;
+  text-align: center;
+}
