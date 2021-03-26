@@ -22,7 +22,7 @@ $(document).ready(function () {
     else if (result > 5 && result <= 10) {
       return $("#output-result").text("Your path is bright; C++ is your way to illumination.")
     }
-    else { return $("#output-result").text("you probably shouldn't learn how to code.") }
+    else { return $("#output-result").text("You probably shouldn't learn how to code...") }
   })
 })
 

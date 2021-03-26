@@ -5,6 +5,12 @@ h1 {
   color: #E0C1B3;
   text-align: center;
 }
+h3 {
+  text-align: left;
+  color: white;
+  font-size: large;
+  font-family: fantasy;
+}
 .smaller-text {
   font-size: larger;
   color: white;
@@ -31,6 +37,7 @@ h1 {
 .exit-styles {
   font-family:'Lucida Sans';
   color: #e1dde4;
+  text-align: center;
 }
 
 #output-result {
@@ -58,4 +65,15 @@ h1 {
 
 .text-styles {
   display: show;
+}
+
+.yes {
+  border-radius: 10%;
+  background: #343a40;
+  color: #b1a7a6;
+  text-align: center;
+}
+
+.row {
+  display: flex;
 }
