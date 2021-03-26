@@ -8,5 +8,20 @@ $(document).ready(function () {
     const q1 = parseInt($('#question1').val());
     const q2 = parseInt($('#question2').val());
     const q3 = parseInt($('#question3').val());
-  }
+    const q4 = parseInt($('#question4').val());
+    const q5 = parseInt($('#question5').val());
+    const result = add(q1, q2, q3, q4, q5);
+    $("#output-result").text();
+
+    if (result === 5) {
+      return $("output-result").text("Looks like you should checkout Python")
+    }
+    else if (result > 5 && result <= 10) {
+      return $("output-result").text("Javascript seems to be the most fitting language for you to start with.")
+    }
+    else if (result > 10 && result <= 15) {
+      return $("output-result").text("C++ is your pathway to illumination.")
+    }
+    else { return $("output-result").text("you probably shouldn't learn how to code.") }
+  })
 })
