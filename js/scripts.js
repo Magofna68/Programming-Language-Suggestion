@@ -25,3 +25,7 @@ $(document).ready(function () {
     else { return $("#output-result").text("you probably shouldn't learn how to code.") }
   })
 })
+
+// $(".form-control").click(function () {
+//   $("select").toggle();
+// }
