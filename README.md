@@ -29,8 +29,8 @@ If below link isnt working; the backup method will be cloning repository to loca
 
 ## Known Bugs
 
-* _TBD_
-* _TBD_
+* _Couldnt get the answers to disapear after clicking_
+
 
 ## License
 
