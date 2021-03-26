@@ -41,9 +41,17 @@ h1 {
 }
 
 #image {
-  float: right;
+  position: left;
+  margin: auto;
 }
 
 #image2 {
-  float:left
+  position: right;
+  margin: auto;
+}
+
+#image3 {
+  position: center;
+  margin: auto;
+  padding: 5%;
 }
