@@ -1,6 +1,6 @@
-# _Week 2 Project_
+# _Week 2 Project: Programming Language Suggester_
 
-#### _{Brief description of application}_
+#### _Using numerous technologies, this website will help direct individuals when choosing a programming language._
 
 #### By _**Brandon Magofna**_
 
@@ -13,7 +13,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_Using the above technologies, this will help steer future coders into the correct language field based on some feedback_
 
 ## Setup/Installation Requirements
 

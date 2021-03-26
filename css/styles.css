@@ -10,3 +10,13 @@ h1 {
   color: white;
   text-align: center;
 }
+.intro-styles {
+  color: #96939b;
+  font-family: fantasy;
+  text-align: center;
+}
+.text-styles {
+  font-family: fantasy;
+  text-align: center;
+  color: #3d6a98;
+}

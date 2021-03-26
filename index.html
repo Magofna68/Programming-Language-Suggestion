@@ -11,9 +11,61 @@
 <h1>This is my Week 2 Project:</h1>
 
 <body id="background-color">
-    <p></p>
+  <form class="form-group">
     <p class="smaller-text">Programming Language Suggester</p>
-    
+    <p class="intro-styles">There are tons of languages out there, but how do you know which one to learn? Select the
+      questions below, and we can provide a suggestion based on your answers!<br>
+      Lets get started:</p>
+    <br>
+    <br>
+    <p class="text-styles">How much do you enjoy styling?</p>
+    <select class="form-control" id="question1" text="question1">
+      <option value="Select Answer">Select Answer:</option>
+      <option value="0">Heavy</option>
+      <option value="1">Light</option>
+      <option value="2">Light</option>
+    </select>
+    <br>
+    <p class="text-styles">In your opinion, which fits your character best?</p>
+    <select class="form-control" id="question2">
+      <option value="Select Answer">Select Answer:</option>
+      <option value="0">A nice lazy swim across the pacific ocean</option>
+      <option value="1">I strive for greatness because I never knew my father</option>
+      <option value="2">Netflix and Chill</option>
+    </select>
+    <br>
+    <p class="text-styles">Which are you best at?</p>
+    <select class="form-control" id="question3">
+      <option value="Select Answer">Select Answer:</option>
+      <option value="0">Eating jelly filled doughnuts</option>
+      <option value="1">Living a useless life in the vaccuum of imeasurable space and time</option>
+      <option value="2">Procrastinating so that the obligations of my responsibilities overwhelm me, making me
+        procrastinate more</option>
+    </select>
+    <br>
+    <p class="text-styles">How committed are you to learning a language?</p>
+    <select class="form-control" id="question4">
+      <option value="Select Answer">Select Answer:</option>
+      <option value="0">As committed as a therapist is to fixing a problem</option>
+      <option value="1">Eh, sometimes i like to deep dive and then celebrate by eating popcorn</option>
+      <option value="2">Very committed as long as its my choice</option>
+    </select>
+    <br>
+    <p class="text-styles">How do you react to challenging situations?</p>
+    <select class="form-control" id="question5">
+      <option value="Select Answer">Select Answer:</option>
+      <option value="0">Sometimes I drool</option>
+      <option value="1">BuT wHy, iT dEpEnDs On ThE sItuAtIoN</option>
+      <option value="2">I go headfirst into the challenge, overcoming my fears, battling through the
+        challenges, and achieving greatness</option>
+    </select>
+    <button class="btn btn-primary">Submit</button>
+  </form>
+  <div id="output-result">
+
+
+  </div>
+
 </body>
 
 </html>
