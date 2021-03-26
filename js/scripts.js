@@ -13,6 +13,13 @@ $(document).ready(function () {
     const result = add(q1, q2, q3, q4, q5);
     $("#output-result").text(result);
 
+    $(document).ready(function() {
+      $("div#hide-me").click(function() {
+        $("#hide-me").toggle();
+        $("#show-me").toggle();
+      });
+    });
+
     if (result === 0) {
       return $("#output-result").text("Looks like you should checkout Python")
     }
@@ -32,7 +39,7 @@ $(document).ready(function () {
 
 // $(function () {
 //   $('#hide-me').change(function () {
-//     if (q1 === "NaN") {
+//     if (q1 === "0") {
 //       $("#hide-me").show();
 //     } else {
 //       $("#hide-me").hide();
