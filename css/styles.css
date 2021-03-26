@@ -20,3 +20,15 @@ h1 {
   text-align: center;
   color: #3d6a98;
 }
+#center {
+  text-align: center;
+  color: white;
+}
+#enlarge {
+  font-size: xx-large;
+}
+
+.exit-styles {
+  font-family:'Lucida Sans';
+  color: #e1dde4;
+}
