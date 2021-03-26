@@ -13,13 +13,6 @@ $(document).ready(function () {
     const result = add(q1, q2, q3, q4, q5);
     $("#output-result").text(result);
 
-    $(document).ready(function() {
-      $("div#hide-me").click(function() {
-        $("#hide-me").toggle();
-        $("#show-me").toggle();
-      });
-    });
-
     if (result === 0) {
       return $("#output-result").text("Looks like you should checkout Python")
     }
@@ -33,15 +26,22 @@ $(document).ready(function () {
   })
 })
 
+//  The functions below were attempts:
+
 // $(".form-control").click(function () {
 //   $("select").toggle();
 // }
 
-// $(function () {
-//   $('#hide-me').change(function () {
-//     if (q1 === "0") {
-//       $("#hide-me").show();
-//     } else {
-//       $("#hide-me").hide();
-//     });
-// });
+// $(function hidee() {
+//     var quest1 = document.getElementById('question1');
+//     quest1.style.visibility = 'hidden';
+// }
+// function showw() {
+//     var quest1 = document.getElementById('question1');
+//     quest1.style.visibility = 'visible';
+// }
+// function hiddenSelectHandler(select){
+//   if(select.value === 'NaN') {
+//     show();
+//   } else (select.value != 'NaN') {hide();
+// }
