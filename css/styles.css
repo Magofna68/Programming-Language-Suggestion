@@ -32,3 +32,18 @@ h1 {
   font-family:'Lucida Sans';
   color: #e1dde4;
 }
+
+#output-result {
+  font-family: fantasy;
+  font-size: xx-large;
+  color: limegreen;
+  text-align: center;
+}
+
+#image {
+  float: right;
+}
+
+#image2 {
+  float:left
+}

@@ -11,17 +11,17 @@ $(document).ready(function () {
     const q4 = parseInt($('#question4').val());
     const q5 = parseInt($('#question5').val());
     const result = add(q1, q2, q3, q4, q5);
-    $("#output-result").text();
+    $("#output-result").text(result);
 
-    if (result === 5) {
-      return $("output-result").text("Looks like you should checkout Python")
+    if (result === 0) {
+      return $("#output-result").text("Looks like you should checkout Python")
+    }
+    else if (result > 0 && result <= 5) {
+      return $("#output-result").text("Javascript seems to be the most fitting language for you to start with.")
     }
     else if (result > 5 && result <= 10) {
-      return $("output-result").text("Javascript seems to be the most fitting language for you to start with.")
+      return $("#output-result").text("Your path is bright; C++ is your way to illumination.")
     }
-    else if (result > 10 && result <= 15) {
-      return $("output-result").text("C++ is your pathway to illumination.")
-    }
-    else { return $("output-result").text("you probably shouldn't learn how to code.") }
+    else { return $("#output-result").text("you probably shouldn't learn how to code.") }
   })
 })
