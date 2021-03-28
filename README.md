@@ -19,6 +19,8 @@ _Using the above technologies, this will help steer future coders into the corre
 
 If below link isnt working; the backup method will be cloning repository to local repository:
 
+* _If link is broken/unresponsive, see below: https://magofna68.github.io/Programming-Language-Suggestion/
+
 * _Go to Github and navigate to main page of repository you wish to clone_
 * _Above the list of files, click the green "code" button, and select the clipboard to copy URL under "clone with https"_
 * _open terminal & change current working directory to "Desktop" - this will house the cloned repository_
